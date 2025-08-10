@@ -1,0 +1,18 @@
+.about-content,
+.contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-content {
+    padding: 1rem;
+    margin: 0 25%;
+    min-width: fit-content;
+    background-color: rgb(154, 230, 230);
+    border: 2px dotted rgb(247, 121, 121)
+}
+
+.contacts > p {
+    margin: 0;
+}

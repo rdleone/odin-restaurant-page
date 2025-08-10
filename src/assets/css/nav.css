@@ -1,0 +1,43 @@
+header {
+    background-color: orange;
+    padding: 2rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+nav button {
+    padding: 8px 12px;
+    min-width: min-content;
+    width: 10%;
+    max-width: 200px;
+    font-size: large;
+    text-wrap: wrap;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #98896e;
+}
+
+#nav-home {
+    background-color: rgb(189, 54, 54);
+}
+
+#nav-home:hover {
+    background-color: rgb(163, 44, 44);
+}
+
+#nav-home:active {
+    background-color: rgb(143, 36, 36);
+}
+
+#nav-menu {
+    background-color: rgb(198, 198, 73);
+}
+
+#nav-about {
+    background-color: rgb(118, 190, 214);
+}

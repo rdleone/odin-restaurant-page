@@ -1,0 +1,9 @@
+#title-img {
+    max-width: 8rem;
+}
+
+.home-content {
+    justify-content: start;
+    flex-direction: column;
+    padding: 0 1rem;
+}
